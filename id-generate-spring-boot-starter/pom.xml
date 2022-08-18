@@ -4,7 +4,7 @@
     <parent>
         <artifactId>id-generate-parent</artifactId>
         <groupId>io.github.aapplet</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>io.github.aapplet</groupId>
             <artifactId>id-generate</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.2-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

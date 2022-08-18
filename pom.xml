@@ -6,7 +6,7 @@
     <groupId>io.github.aapplet</groupId>
     <artifactId>id-generate-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>id-generate</name>
     <description>Distributed ID generator</description>
@@ -36,6 +36,7 @@
         <connection>scm:git:https://github.com/aapplet/ID-Generate.git</connection>
         <developerConnection>scm:git:https://github.com/aapplet/ID-Generate.git</developerConnection>
         <url>https://github.com/aapplet/ID-Generate</url>
+        <tag>0.1.0</tag>
     </scm>
 
     <distributionManagement>
@@ -106,8 +107,11 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
+                    <branchName>0.1.0</branchName>
+                    <pushChanges>false</pushChanges>
+                    <releaseVersion>0.1.0-SNAPSHOT</releaseVersion>
+                    <updateBranchVersions>false</updateBranchVersions>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <useReleaseProfile>false</useReleaseProfile>
                     <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
                 </configuration>
