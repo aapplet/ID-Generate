@@ -1,9 +1,6 @@
-package io.github.aapplet.segment.loader;
+package io.github.aapplet.segment;
 
-/**
- * database loader
- */
-public interface SegmentLoader {
+public interface IdSegmentLoader {
 
     /**
      * initialize segment
@@ -11,7 +8,7 @@ public interface SegmentLoader {
      * @param key service key
      * @return new segment
      */
-    SegmentData initSegment(String key);
+    IdSegment initSegment(String key);
 
     /**
      * get new segment
@@ -19,7 +16,7 @@ public interface SegmentLoader {
      * @param key service key
      * @return new segment
      */
-    SegmentData getSegment(String key);
+    IdSegment getSegment(String key);
 
     /**
      * step increment
