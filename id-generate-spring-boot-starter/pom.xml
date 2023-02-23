@@ -3,7 +3,7 @@
     <parent>
         <artifactId>id-generate</artifactId>
         <groupId>io.github.aapplet</groupId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.5-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
